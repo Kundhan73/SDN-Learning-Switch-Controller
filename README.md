@@ -268,13 +268,3 @@ mininet> h1 ping -c 5 h2
 | Flow rules after pingAll | ≥ 6 unicast + 1 table-miss | `ovs-ofctl dump-flows` |
 | First packet latency | slightly higher than steady-state | `ping -c 1` |
 
----
-
-## References
-
-1. Ryu SDN Framework Documentation — https://ryu.readthedocs.io/
-2. Mininet Documentation — http://mininet.org/
-3. OpenFlow 1.3 Specification — https://opennetworking.org/wp-content/uploads/2014/10/openflow-spec-v1.3.0.pdf
-4. Open vSwitch — https://www.openvswitch.org/
-5. Nate Foster et al., "Frenetic: A Network Programming Language", ICFP 2011
-6. McKeown et al., "OpenFlow: Enabling Innovation in Campus Networks", ACM SIGCOMM 2008
